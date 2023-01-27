@@ -26,5 +26,3 @@ Feature: user should be able to search a product and add in the shopping basket
     Then verify product with same info is displayed
     And verify total product amount is "291.55 €"
 
-#    Add product to basket
-#    Check product in shopping cart
