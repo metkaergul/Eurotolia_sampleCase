@@ -41,7 +41,7 @@ public class AddCart_StepDef {
       BrowserUtils.waitForTitleContains("Whole");
       homePage.myAccountDropDown.click();
 
-      //it verifies that user is logged in because signOut button doesn't appear at first
+      //verifies that user is logged in because signOut button doesn't appear at first
       Assert.assertTrue(homePage.signOutButton.isDisplayed());
    }
 
